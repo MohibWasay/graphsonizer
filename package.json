@@ -1,0 +1,19 @@
+{
+  "name": "graphsonize",
+  "version": "1.0.0",
+  "description": "a utility to convert your data into graphson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graph",
+    "graphson",
+    "json"
+  ],
+  "author": "Mohib A. Wasay",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

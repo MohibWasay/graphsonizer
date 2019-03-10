@@ -14,8 +14,8 @@ class Vertex {
     this.properties[property] = [new Property(value)];
   }
 
-  addOuterEdge(property, id, inV, value) {
-    this.outE[`has_${property}`] = [new OuterEdge(id, inV, value)];
+  addOuterEdge(property, id, inV, value, properties = {}) {
+    this.outE[`has_${property}`] = [new OuterEdge(id, inV, properties)];
   }
 }
 
